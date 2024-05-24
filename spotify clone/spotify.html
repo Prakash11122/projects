@@ -40,11 +40,119 @@
                        <i class="fa-solid fa-arrow-right"></i>
                      </div>
                  </div>
-                  <div class="boxes"></div>
+                  <div class="lib-box">
+                      <div class="box">
+                         <p class="box-p1">Create your first playlist</p>
+                         <p class="box-p2">it's easy we'll help you</p>
+                         <button class="badge">Create a playlist</button>
+                      </div>
+                      <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2">We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                     </div>
+                  </div>
               </div>
         </div>
-        <div class="main-content">Content</div>
-        <div class="music-player">Music Player</div>
+        <div class="main-content">
+            <div class="cticky-nav">
+                <div class="sticky-nav-icons">
+                   <img src="./assert/backward_icon.png" alt="">
+                   <img src="./assert/forward_icon.png" class="hide">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge nav-items hide">Explore Premium</button>
+                    <button class="badge nav-items dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 0.2rem;"></i>  Install App</button>
+                    <i class="fa-regular fa-bell nav-items"></i>
+                    <!-- <i class="fa-regular fa-user"></i> -->
+                </div>
+            </div>
+            
+            <h2>Recently Played</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assert/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+            </div>
+
+            <h2>Treanding now near you </h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assert/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna sohna</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mera pass tum ho</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card4img.jpeg" class="card-img">
+                    <p class="card-title">Leo Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card2img.jpeg" class="card-img">
+                    <p class="card-title">Mahiye Jinna sohna</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mera pass tum ho</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card3img.jpeg" class="card-img">
+                    <p class="card-title">Mera pass tum ho</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+            </div>
+
+
+            <h2>Featured Charts</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="./assert/card5img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card6img.jpeg" class="card-img">
+                    <p class="card-title">Top Songs India</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+                <div class="card">
+                    <img src="./assert/card1img.jpeg" class="card-img">
+                    <p class="card-title">Top 50 - Global</p>
+                    <p class="card-info">Your daily updates of the most played track...</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+
+        </div>
+        <div class="music-player">
+            <div class="album"></div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assert/player_icon1.png" class="player-control-icon">
+                    <img src="./assert/player_icon2.png" class="player-control-icon">
+                    <img src="./assert/player_icon3.png" class="player-control-icon" style="height: 2rem; opacity: 1;">
+                    <img src="./assert/player_icon4.png" class="player-control-icon">
+                    <img src="./assert/player_icon5.png" class="player-control-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">3:33</span>
+                </div>
+            </div>
+            <div class="controls"></div>
+        </div>
     </div>
 </body>
 </html>
